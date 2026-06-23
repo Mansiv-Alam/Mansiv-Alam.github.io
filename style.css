@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(to bottom, skyblue, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p {
+    border-style: unset;
+    border-width: unset;
+    border-radius: unset;
+    position: sticky;
+}
+img{
+    position: sticky;
+    top: 0px;
+    float: left;
+
+}
+h1 {
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+/* targets unique id for one paragraph*/
+#p1{
+    /*margins*/
+    border: 5px solid;
+    width: 500px;
+    height: 500px;
+    font-size: 22px;
+    background-color: cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 65, 0);
+}
+/* a '.' indicates a class*/
+.odd{
+    /* multiple fonts in case the first font is not supported by the browser*/
+    font-family: consolas, roboto, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: red dotted underline;
+    background-color: cadetblue;
+    font-size: 24px;
+}
