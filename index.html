@@ -12,16 +12,34 @@
     <nav class="navbar">
         <h2 class="logo">Mansiv Alam</h2>
         <ul class="navlinks">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html" class="active">Contact Me</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
         </ul>
     </nav>
 
-    <h1>Home</h1>
-    <h2>Mansiv Alam</h2> <!-- add a space between Developer and building  -->
+    <h1>Mansiv Alam</h1> <!-- add a space between Developer and building  -->
     <p>Student Developer Building small projects in C++, Java, and Web Development</p>
 
+    <h2 class="subheading">Featured Projects</h2>
+
+    <div class="slider">
+        <div class="track">
+            <img src="images/platformer.png" alt="Platformer">
+            <img src="images/opengl.png" alt="OpenGL Renderer">
+            <img src="images/project3.png" alt="Project 3">
+        </div>
+    </div>
+
+    <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <a href="projects.html" class="btn">View Projects</a>
+    <a href="contact.html" class="btn">Contact Me</a>
+    <script src="script.js"></script>
 </body>
 </html>
