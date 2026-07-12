@@ -10,28 +10,86 @@
 </head>
 <body>
     <nav class="navbar">
-    <h2 class="logo">Mansiv Alam</h2>
-    <ul class="navlinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="projects.html" class="active">Projects</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
-    </ul>
-</nav>
-
+        <h2 class="logo">Mansiv Alam</h2>
+        <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    
     <h1 class="subheading">Projects</h1>
 
-    <div class="container">
-        <div class="projectbox">
-            <h2>OpenGL Rendering Engine (GLFW + GLAD)</h2>
-            <p>I worked with GLFW and GLAD to render graphics using OpenGL. This project focused on learning low-level rendering, window management, and how the graphics pipeline works.</p>
-            <p><strong>Tech:</strong> C++, OpenGL, GLFW, GLAD</p>
+    <div class="project-content">
+        <div class="project-row">
+            <div class="project-details">
+                <div class="projectbox">
+                    <h2>OpenGL Rendering Engine (GLFW + GLAD)</h2>
+                    <p>I worked with GLFW and GLAD to render graphics using OpenGL. This project focused on learning low-level rendering, window management, and how the graphics pipeline works.</p>
+                    <div class="tech-badges">
+                        <strong>Tech:</strong> 
+                        <span>C++</span>
+                        <span>OpenGL</span>
+                        <span>GLFW</span>
+                        <span>GLAD</span>
+                    </div>
+                </div>
+                <a href="https://github.com/Mansiv-Alam/opengl-graphics-test" class="btn" target="_blank" rel="noopener noreferrer">OpenGL Project</a>
+            </div>
+            <div class="project-visuals">
+                <div class="project-slider">
+                    <div class="slider-track">
+                        <div class="project-slide">
+                            <img src="images/250px-Octicons-mark-github.svg.webp" alt="Level design view" class="row-media">
+                        </div>
+                        <div class="project-slide">
+                            <img src="images/250px-LinkedIn_logo_initials.png" alt="Level design view" class="row-media">
+                        </div>
+                    </div>
+                    <div class="project-slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="projectbox">
-            <h2>2D Platformer Game (C++)</h2>
-            <p>I built a 2D platformer game in Java featuring player movement, gravity, and collision detection. This project helped me understand game loops and basic physics in game development.</p>
-            <p><strong>Tech:</strong> Java, Object-Oriented Programming</p>
+        <div class="project-row flipped">
+            <div class="project-details">
+                <div class="projectbox">
+                    <h2>2D Platformer Game (Java)</h2>
+                    <p>I built a 2D platformer game in Java featuring player movement, gravity, and collision detection. This project helped me understand game loops and basic physics in game development.</p>
+                    <div class="tech-badges">
+                        <strong>Tech:</strong> 
+                        <span>Java</span>
+                        <span>Java Swing</span>
+                        <span>AWT</span>
+                        <span>OOP</span>
+                    </div>
+                </div>
+                <a href="https://github.com/Mansiv-Alam/mario-style-platformer-java" class="btn" target="_blank" rel="noopener noreferrer">2D Game Project</a>
+            </div>
+            <div class="project-visuals">
+                <div class="project-slider">
+                    <div class="slider-track">
+                        <div class="project-slide">
+                            <img src="images/250px-LinkedIn_logo_initials.png" alt="Level design view" class="row-media">
+                        </div>
+                        <div class="project-slide">
+                            <img src="images/250px-Octicons-mark-github.svg.webp" alt="Level design view" class="row-media">
+                        </div>
+                    </div>
+                    <div class="project-slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                    </div>
+                </div>
+            </div>
         </div>
+        <footer style="text-align: center; margin-top: 100px; padding: 20px; color: #666;">
+            <p>© 2026 Mansiv Alam. All rights reserved.</p>
+        </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
